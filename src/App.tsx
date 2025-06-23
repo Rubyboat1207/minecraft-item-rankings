@@ -9,6 +9,7 @@ import BugReportModal from './components/BugReportModal'
 function App() {
   const [user, setUser] = useState<User | null>(null)
   const [loading, setLoading] = useState<boolean>(true)
+  const [sending, setSending] = useState<boolean>(false)
 
   const [item_a, setItemA] = useState<string | null>(null)
   const [item_b, setItemB] = useState<string | null>(null)
@@ -66,6 +67,7 @@ function App() {
   }
 
   function submit(is_rarer: boolean) {
+    setSending(true)
     submit_comparison({
       item_id: item_a || '',
       comparison_item_id: item_b || '',
@@ -76,6 +78,7 @@ function App() {
       const [random_a, random_b] = random_pair(rankings)
       setItemA(random_a)
       setItemB(random_b)
+      setSending(false)
     }).catch((error) => {
       console.error('Error submitting comparison:', error)
       alert('Failed to submit comparison. Please try again later.')
@@ -115,7 +118,7 @@ function App() {
                 )}
                 {!!item_a || 'loading...'}
               </div>
-              <button onClick={() => submit(true)}>
+              <button onClick={() => submit(true)} disabled={sending}>
                 Rarer
               </button>
             </div>
@@ -132,7 +135,7 @@ function App() {
                 )}
                 {!!item_b || 'loading...'}
               </div>
-              <button onClick={() => submit(false)}>
+              <button onClick={() => submit(false)} disabled={sending}>
                 Rarer
               </button>
             </div>

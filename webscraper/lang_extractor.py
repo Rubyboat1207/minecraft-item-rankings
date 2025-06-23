@@ -38,6 +38,8 @@ specific_exclusions = [
     'block.minecraft.player_head',
     'block.minecraft.barrier',
     'block.minecraft.test_[a-z_]+',
+    'block.minecraft.moving_piston',
+    'block.minecraft.light'
 ]
 
 for exclusion in specific_exclusions:

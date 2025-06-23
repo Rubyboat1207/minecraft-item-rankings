@@ -52,6 +52,11 @@ button.small-button {
     background-size: 50px;
 }
 
+button:disabled {
+    background: url("/stone_dark.png");
+    background-size: 50%;
+}
+
 .auth-container {
     display: flex;
     flex-direction: column;
