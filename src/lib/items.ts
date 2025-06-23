@@ -1039,7 +1039,7 @@ export const ITEMS_TO_IMAGE_URLS: ItemsToImageUrl = {
   "Prismarine Crystals": "https://minecraft.wiki/images/Prismarine_Crystals_JE2_BE2.png?8d8af",
   "Prismarine Shard": "https://minecraft.wiki/images/Prismarine_Shard_JE2_BE2.png?ef03b",
   "Prize Pottery Sherd": "https://minecraft.wiki/images/Prize_Pottery_Sherd_JE1_BE2.png?052ef",
-  "Pufferfish": "https://minecraft.wiki/images/thumb/Pufferfish_small.gif/150px-Pufferfish_small.gif?f12fb",
+  "Pufferfish": "https://minecraft.wiki/images/Pufferfish_%28item%29_JE5_BE2.png?c436f",
   "Bucket of Pufferfish": "https://minecraft.wiki/images/Bucket_of_Pufferfish_JE2_BE2.png?5fdfe",
   "Pumpkin Pie": "https://minecraft.wiki/images/Pumpkin_Pie_JE2_BE2.png?d7f38",
   "Pumpkin Seeds": "https://minecraft.wiki/images/thumb/Pumpkin_Stem_Age_0_JE7.png/150px-Pumpkin_Stem_Age_0_JE7.png?1ae7f",
