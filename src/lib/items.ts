@@ -117,7 +117,6 @@ export const ITEMS_TO_IMAGE_URLS: ItemsToImageUrl = {
   "Brown Stained Glass Pane": "https://minecraft.wiki/images/thumb/Brown_Stained_Glass_Pane_%28EW%29_JE9.png/150px-Brown_Stained_Glass_Pane_%28EW%29_JE9.png?110ca",
   "Brown Terracotta": "https://minecraft.wiki/images/thumb/Brown_Terracotta_JE1_BE1.png/150px-Brown_Terracotta_JE1_BE1.png?fac32",
   "Brown Wool": "https://minecraft.wiki/images/thumb/Brown_Wool_JE3_BE3.png/150px-Brown_Wool_JE3_BE3.png?96f60",
-  "Bubble Column": "https://minecraft.wiki/images/thumb/Bubble_Column_JE1_BE1.png/150px-Bubble_Column_JE1_BE1.png?7edf5",
   "Bubble Coral": "https://minecraft.wiki/images/thumb/Bubble_Coral_JE1_BE1.png/150px-Bubble_Coral_JE1_BE1.png?55cb3",
   "Bubble Coral Block": "https://minecraft.wiki/images/thumb/Bubble_Coral_Block_JE2_BE1.png/150px-Bubble_Coral_Block_JE2_BE1.png?a6cc6",
   "Bubble Coral Fan": "https://minecraft.wiki/images/thumb/Bubble_Coral_Fan_JE1_BE2.png/150px-Bubble_Coral_Fan_JE1_BE2.png?7cea7",
