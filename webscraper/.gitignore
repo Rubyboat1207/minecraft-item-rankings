@@ -1,0 +1,5 @@
+venv/
+en_us.json
+en_us_items.json
+chromedriver*
+minecraft_item_images.json
