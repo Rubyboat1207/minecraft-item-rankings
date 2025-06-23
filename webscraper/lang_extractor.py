@@ -37,6 +37,7 @@ specific_exclusions = [
     'block.minecraft.nether_portal',
     'block.minecraft.player_head',
     'block.minecraft.barrier',
+    'block.minecraft.test_[a-z_]+',
 ]
 
 for exclusion in specific_exclusions:

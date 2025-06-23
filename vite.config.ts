@@ -10,7 +10,8 @@ export default defineConfig({
   ],
   server: {
     allowedHosts: [
-      'minecraft-rarity.rubyboat.net'
+      'minecraft-rarity.rubyboat.net',
+      'minecraft-rarity-local.rubyboat.net'
     ]
   }
 })

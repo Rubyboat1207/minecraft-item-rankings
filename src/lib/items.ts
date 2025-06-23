@@ -824,8 +824,6 @@ export const ITEMS_TO_IMAGE_URLS: ItemsToImageUrl = {
   "Tall Seagrass": "https://minecraft.wiki/images/thumb/Seagrass_JE1_BE2.gif/150px-Seagrass_JE1_BE2.gif?27838",
   "Target": "https://minecraft.wiki/images/thumb/Target_JE1_BE1.png/150px-Target_JE1_BE1.png?68c73",
   "Terracotta": "https://minecraft.wiki/images/thumb/Terracotta_JE2_BE2.png/150px-Terracotta_JE2_BE2.png?b946d",
-  "Test Block": "https://minecraft.wiki/images/thumb/Test_Block_start_JE2.png/150px-Test_Block_start_JE2.png?e7622",
-  "Test Instance Block": "https://minecraft.wiki/images/thumb/Test_Instance_Block_JE2.png/150px-Test_Instance_Block_JE2.png?9dd98",
   "Tinted Glass": "https://minecraft.wiki/images/thumb/Tinted_Glass_JE2_BE1.png/150px-Tinted_Glass_JE2_BE1.png?7eaed",
   "TNT": "https://minecraft.wiki/images/thumb/TNT_JE3_BE2.png/150px-TNT_JE3_BE2.png?62989",
   "Torch": "https://minecraft.wiki/images/Torch.gif?462d6",

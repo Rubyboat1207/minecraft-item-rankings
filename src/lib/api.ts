@@ -38,3 +38,24 @@ export async function get_item_elos(): Promise<ItemRanking[]> {
         .order('elo_ranking', { ascending: false }))
         .data || [];
 }
+
+export interface BugReport {
+    description: string;
+    contact_info: string | null;
+    user_id?: string;
+}
+
+export async function submit_bug_report({
+    description,
+    contact_info,
+    user_id
+}: BugReport) {
+    await supabase.from('BugReports')
+        .insert([
+            { 
+                description,
+                contact: contact_info || null,
+                user_id: user_id || (await supabase.auth.getSession()).data.session?.user.id || null,
+            },
+        ]);
+}

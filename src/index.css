@@ -47,6 +47,11 @@ button {
     border-bottom: 5px solid #3b3b3b88;
 }
 
+button.small-button {
+    padding: 5px 0px 0px 5px;
+    background-size: 50px;
+}
+
 .auth-container {
     display: flex;
     flex-direction: column;
