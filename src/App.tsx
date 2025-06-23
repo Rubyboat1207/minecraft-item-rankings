@@ -165,6 +165,60 @@ function App() {
                 </div>
               ))}
             </div>
+            <div className="flex flex-col md:flex-row justify-center items-center gap-8 mt-8 mb-8 lg:mb-0">
+              {/* Middle Rarity Item */}
+              {rankings.length > 0 && (
+                <div className="flex flex-col items-center bg-gray-800/70 rounded-lg p-4 w-full md:w-1/2">
+                  <h4 className="text-lg font-semibold mb-2 text-center">Middle Rarity Item</h4>
+                  {(() => {
+                    const midIndex = Math.floor(rankings.length / 2)
+                    const midItem = rankings[midIndex]
+                    return (
+                      <>
+                        <img
+                          src={get_item_image_url(midItem.item_name) || ''}
+                          alt={midItem.item_name}
+                          className="w-16 h-16 object-contain mb-2"
+                        />
+                        <div className="text-center text-base font-medium">{midItem.item_name}</div>
+                        <div className="text-xs text-gray-400">Rank #{midIndex + 1}</div>
+                      </>
+                    )
+                  })()}
+                </div>
+              )}
+
+              {/* Closest to Average Rarity Item */}
+              {rankings.length > 0 && (
+                <div className="flex flex-col items-center bg-gray-800/70 rounded-lg p-4 w-full md:w-1/2">
+                  <h4 className="text-lg font-semibold mb-2 text-center">Closest to Average Rarity Item</h4>
+                  {(() => {
+                    const avgElo = rankings.reduce((sum, r) => sum + r.elo_ranking, 0) / rankings.length
+                    let closest = rankings[0]
+                    let closestDiff = Math.abs(rankings[0].elo_ranking - avgElo)
+                    rankings.forEach(r => {
+                      const diff = Math.abs(r.elo_ranking - avgElo)
+                      if (diff < closestDiff) {
+                        closest = r
+                        closestDiff = diff
+                      }
+                    })
+                    const avgIndex = rankings.findIndex(r => r.item_name === closest.item_name)
+                    return (
+                      <>
+                        <img
+                          src={get_item_image_url(closest.item_name) || ''}
+                          alt={closest.item_name}
+                          className="w-16 h-16 object-contain mb-2"
+                        />
+                        <div className="text-center text-base font-medium">{closest.item_name}</div>
+                        <div className="text-xs text-gray-400">Rank #{avgIndex + 1}</div>
+                      </>
+                    )
+                  })()}
+                </div>
+              )}
+            </div>
           </div>
         </div>
         <div className='flex flex-col items-center justify-center mb-16 mt-4'>
