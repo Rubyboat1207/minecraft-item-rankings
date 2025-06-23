@@ -99,7 +99,7 @@ function App() {
         </p>
         <div className='mt-15'></div>
         <div className='flex flex-col items-center justify-center gap-4'>
-          <h2 className='text-xl font-semibold mb-2'>{item_a}</h2>
+          <h2 className='text-xl font-semibold mb-2 text-center'>{item_a}</h2>
           <div className='flex flex-col md:flex-row items-center justify-center gap-4'>
             <div className='item-slot flex flex-col items-center justify-center'>
               {item_a && (
@@ -116,7 +116,7 @@ function App() {
             </button>
           </div>
           <div className='mt-5'></div>
-          <h2 className='text-xl font-semibold mb-2'>{item_b}</h2>
+          <h2 className='text-xl font-semibold mb-2 text-center'>{item_b}</h2>
           <div className='flex flex-col md:flex-row items-center justify-center gap-4'>
             <div className='item-slot flex flex-col items-center justify-center'>
               {item_b && (
@@ -136,6 +136,7 @@ function App() {
         <div className='mt-15'></div>
         <div className='mt-8 w-full max-w-4xl'>
           <h2 className='text-2xl font-bold text-center mb-4'>Rarity Leaderboard (Still Settling)</h2>
+            <h3 className='text-xs text-gray-400 text-center mb-2 mt-2'>Results will improve as more items are rated!</h3>
           <div className='bg-gray-900/50 rounded-lg p-4 max-h-96 overflow-y-auto'>
             <div className='grid grid-cols-2 gap-4 mb-2 text-sm font-semibold text-gray-300 border-b border-gray-600 pb-2'>
               <div>Rank</div>
