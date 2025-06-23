@@ -20,6 +20,7 @@ specific_exclusions = [
     '(?:item|block).minecraft.[a-z_]+_candle_cake',
     '(?:item|block).minecraft.[a-z_]*air',
     '(?:item|block).minecraft.attached_[a-z_]+_stem',
+    '(?:item|block).minecraft.[a-z_]+_stem',
     '(?:item|block).minecraft.[a-z_]+_command_block',
     '(?:item|block).minecraft.[a-z_]+_spawn_egg',
     '(?:item|block).minecraft.[a-z_]+_wall_fan',
@@ -39,7 +40,7 @@ specific_exclusions = [
     'block.minecraft.barrier',
     'block.minecraft.test_[a-z_]+',
     'block.minecraft.moving_piston',
-    'block.minecraft.light'
+    'block.minecraft.light$'
 ]
 
 for exclusion in specific_exclusions:
