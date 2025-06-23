@@ -251,3 +251,17 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+    # copy contents of saved file to ../src/lib/items.ts
+    
+    print("\n📂 Copying results to ../src/lib/items.ts...")
+    
+    prefix = '''import type { ItemsToImageUrl } from "./item_helper";
+export const ITEMS_TO_IMAGE_URLS: ItemsToImageUrl = '''
+    
+    with open(OUTPUT_FILE, 'r') as f:
+        data = f.read()
+        
+        with open('../src/lib/items.ts', 'w') as out_f:
+            out_f.write(prefix + data)
+            out_f.write('\n')

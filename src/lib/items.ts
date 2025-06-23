@@ -1,5 +1,4 @@
 import type { ItemsToImageUrl } from "./item_helper";
-
 export const ITEMS_TO_IMAGE_URLS: ItemsToImageUrl = {
   "Acacia Fence Gate": "https://minecraft.wiki/images/thumb/Acacia_Fence_Gate_JE3_BE2.png/150px-Acacia_Fence_Gate_JE3_BE2.png?50077",
   "Acacia Button": "https://minecraft.wiki/images/thumb/Acacia_Button_JE4.png/150px-Acacia_Button_JE4.png?51852",
@@ -419,7 +418,6 @@ export const ITEMS_TO_IMAGE_URLS: ItemsToImageUrl = {
   "Large Amethyst Bud": "https://minecraft.wiki/images/thumb/Large_Amethyst_Bud_%28U%29_JE1.png/150px-Large_Amethyst_Bud_%28U%29_JE1.png?938cf",
   "Large Fern": "https://minecraft.wiki/images/thumb/Large_Fern.png/150px-Large_Fern.png?32da8",
   "Lava": "https://minecraft.wiki/images/thumb/Lava_JE14.gif/150px-Lava_JE14.gif?55df2",
-  "Lava Cauldron": "https://minecraft.wiki/images/thumb/Lava_Cauldron_JE1.png/150px-Lava_Cauldron_JE1.png?49916",
   "Leaf Litter": "https://minecraft.wiki/images/thumb/Leaf_Litter_1_%28S%29_JE2_BE2.png/150px-Leaf_Litter_1_%28S%29_JE2_BE2.png?dbf70",
   "Lectern": "https://minecraft.wiki/images/thumb/Lectern_%28S%29.png/150px-Lectern_%28S%29.png?08ef0",
   "Lever": "https://minecraft.wiki/images/thumb/Wall_Lever_%28S%29_JE5-L3.png/150px-Wall_Lever_%28S%29_JE5-L3.png?039e0",
@@ -828,7 +826,6 @@ export const ITEMS_TO_IMAGE_URLS: ItemsToImageUrl = {
   "Warped Trapdoor": "https://minecraft.wiki/images/thumb/Warped_Trapdoor_JE1_BE1.png/150px-Warped_Trapdoor_JE1_BE1.png?57ba7",
   "Warped Wart Block": "https://minecraft.wiki/images/thumb/Warped_Wart_Block_JE1_BE1.png/160px-Warped_Wart_Block_JE1_BE1.png?aff14",
   "Water": "https://minecraft.wiki/images/Water_JE16-a1.png?7abf8",
-  "Water Cauldron": "https://minecraft.wiki/images/thumb/Water_Cauldron_JE7.png/150px-Water_Cauldron_JE7.png?81610",
   "Waxed Chiseled Copper": "https://minecraft.wiki/images/Invicon_Chiseled_Copper.png?b18e7",
   "Waxed Block of Copper": "https://minecraft.wiki/images/Invicon_Block_of_Copper.png?60e78",
   "Waxed Copper Bulb": "https://minecraft.wiki/images/Invicon_Copper_Bulb.png?b18e7",
