@@ -102,7 +102,7 @@ function App() {
             </span>
             <br />
             <br />
-            When considering rarity, think about how difficult or often you obtain, see, or find it in game.
+            When deciding rarity, consider how frequently you can obtain or encounter the item during normal gameplay.
           </p>
           <div className='mt-15'></div>
           <div className='flex flex-col items-center justify-center gap-4'>

@@ -21,10 +21,11 @@ specific_exclusions = [
     '(?:item|block).minecraft.[a-z_]*air',
     '(?:item|block).minecraft.attached_[a-z_]+_stem',
     '(?:item|block).minecraft.[a-z_]+_stem',
-    '(?:item|block).minecraft.[a-z_]+_command_block',
+    '(?:item|block).minecraft.[a-z_]*command_block',
     '(?:item|block).minecraft.[a-z_]+_spawn_egg',
     '(?:item|block).minecraft.[a-z_]+_wall_fan',
     '(?:item|block).minecraft.[a-z_]+_wall_[a-z_]+',
+    '(?:item|block).minecraft.wall_[a-z_]+',
     '(?:item|block).minecraft.[a-z_]+_wall_hanging_sign',
     '(?:item|block).minecraft.[a-z_]+_bundle',
     '(?:item|block).minecraft.[a-z_]+_pottery_shard',
@@ -40,9 +41,11 @@ specific_exclusions = [
     'block.minecraft.barrier',
     'block.minecraft.test_[a-z_]+',
     'block.minecraft.moving_piston',
+    'block.minecraft.piston_head',
     'block.minecraft.light$',
     'item.minecraft.lodestone_compass',
     "block.minecraft.[a-z_]+_cauldron",
+    "block.minecraft.structure_block",
     "block.minecraft.bubble_column"
 ]
 
