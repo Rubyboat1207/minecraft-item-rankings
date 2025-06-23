@@ -42,7 +42,7 @@ specific_exclusions = [
     'block.minecraft.moving_piston',
     'block.minecraft.light$',
     'item.minecraft.lodestone_compass',
-    "block.minecraft.[a-z]+_cauldron",
+    "block.minecraft.[a-z_]+_cauldron",
     "block.minecraft.bubble_column"
 ]
 

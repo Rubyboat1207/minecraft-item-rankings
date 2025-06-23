@@ -599,7 +599,6 @@ export const ITEMS_TO_IMAGE_URLS: ItemsToImageUrl = {
   "Poppy": "https://minecraft.wiki/images/thumb/Poppy_JE8_BE2.png/150px-Poppy_JE8_BE2.png?10687",
   "Potatoes": "https://minecraft.wiki/images/thumb/Potatoes_Age_0-1_JE8.png/160px-Potatoes_Age_0-1_JE8.png?772ac",
   "Powder Snow": "https://minecraft.wiki/images/thumb/Powder_Snow_JE1_BE1.png/150px-Powder_Snow_JE1_BE1.png?261ff",
-  "Powder Snow Cauldron": "https://minecraft.wiki/images/thumb/Powder_Snow_Cauldron_JE1.png/150px-Powder_Snow_Cauldron_JE1.png?c664e",
   "Powered Rail": "https://minecraft.wiki/images/thumb/Powered_Rail_%28NS%29_JE2_BE2.png/150px-Powered_Rail_%28NS%29_JE2_BE2.png?08321",
   "Prismarine": "https://minecraft.wiki/images/thumb/Prismarine_JE2_BE2.gif/150px-Prismarine_JE2_BE2.gif?655fd",
   "Prismarine Brick Slab": "https://minecraft.wiki/images/thumb/Prismarine_Brick_Slab_JE2_BE2.png/150px-Prismarine_Brick_Slab_JE2_BE2.png?d8e2b",
