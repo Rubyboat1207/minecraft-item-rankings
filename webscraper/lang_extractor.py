@@ -40,7 +40,8 @@ specific_exclusions = [
     'block.minecraft.barrier',
     'block.minecraft.test_[a-z_]+',
     'block.minecraft.moving_piston',
-    'block.minecraft.light$'
+    'block.minecraft.light$',
+    'item.minecraft.lodestone_compass'
 ]
 
 for exclusion in specific_exclusions:

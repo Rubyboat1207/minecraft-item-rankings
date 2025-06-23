@@ -1103,7 +1103,6 @@ export const ITEMS_TO_IMAGE_URLS: ItemsToImageUrl = {
   "Light Gray Dye": "https://minecraft.wiki/images/Light_Gray_Dye_JE2_BE2.png?418da",
   "Lime Dye": "https://minecraft.wiki/images/Lime_Dye_JE2_BE2.png?cfdfc",
   "Lingering Potion": "https://minecraft.wiki/images/Lingering_Water_Bottle_JE2_BE2.png?ed26b",
-  "Lodestone Compass": "https://minecraft.wiki/images/Lodestone_Compass_JE2_BE2.gif?bf28b",
   "Mace": "https://minecraft.wiki/images/Mace_JE1_BE1.png?90f67",
   "Magenta Dye": "https://minecraft.wiki/images/Magenta_Dye_JE2_BE2.png?d7ff6",
   "Magma Cream": "https://minecraft.wiki/images/Magma_Cream_JE3_BE2.png?7a317",
