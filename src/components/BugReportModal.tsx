@@ -76,17 +76,17 @@ export default function BugReportModal({ isOpen, onClose, onSubmit, userId }: Bu
           />
           {error && <div className="text-red-400 text-sm text-center">{error}</div>}
           {success && <div className="text-green-400 text-sm text-center">Thank you for your report!</div>}
-          <div className="flex gap-2 justify-center mt-2">
+          <div className="flex gap-2 justify-center mt-2 md:flex-row flex-col">
             <button
               type="submit"
-              className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded disabled:opacity-50"
+              className=""
               disabled={submitting}
             >
               {submitting ? 'Submitting...' : 'Submit'}
             </button>
             <button
               type="button"
-              className="bg-gray-700 hover:bg-gray-600 text-white font-semibold py-2 px-4 rounded"
+              className=""
               onClick={onClose}
               disabled={submitting}
             >

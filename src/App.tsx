@@ -141,7 +141,7 @@ function App() {
             </div>
           </div>
           <div className='mt-15'></div>
-          <div className='mt-8 w-full max-w-4xl'>
+          <div className='mt-8 w-full flex flex-col'>
             <h2 className='text-2xl font-bold text-center mb-4'>Rarity Leaderboard (Still Settling)</h2>
             <h3 className='text-xs text-gray-400 text-center mb-2 mt-2'>Results will improve as more items are rated!</h3>
             <div className='bg-gray-900/50 rounded-lg p-4 max-h-96 overflow-y-auto'>
