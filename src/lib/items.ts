@@ -317,11 +317,6 @@ export const ITEMS_TO_IMAGE_URLS: ItemsToImageUrl = {
   "Exposed Cut Copper Slab": "https://minecraft.wiki/images/thumb/Exposed_Cut_Copper_Slab_JE1_BE1.png/150px-Exposed_Cut_Copper_Slab_JE1_BE1.png?8a542",
   "Farmland": "https://minecraft.wiki/images/thumb/Farmland_JE4_BE6.png/150px-Farmland_JE4_BE6.png?16bd6",
   "Fern": "https://minecraft.wiki/images/thumb/Fern.png/150px-Fern.png?99453",
-  "Fire": "https://minecraft.wiki/images/thumb/Fire.gif/150px-Fire.gif?69f99",
-  "Fire Coral": "https://minecraft.wiki/images/thumb/Fire_Coral_JE2_BE1.png/150px-Fire_Coral_JE2_BE1.png?3e54c",
-  "Fire Coral Block": "https://minecraft.wiki/images/thumb/Fire_Coral_Block_JE2_BE1.png/150px-Fire_Coral_Block_JE2_BE1.png?81af7",
-  "Fire Coral Fan": "https://minecraft.wiki/images/thumb/Fire_Coral_Fan_JE1_BE2.png/150px-Fire_Coral_Fan_JE1_BE2.png?10234",
-  "Firefly Bush": "https://minecraft.wiki/images/thumb/Firefly_Bush_JE1.gif/150px-Firefly_Bush_JE1.gif?dfff2",
   "Fletching Table": "https://minecraft.wiki/images/thumb/Fletching_Table_JE2_BE1.png/150px-Fletching_Table_JE2_BE1.png?2f09d",
   "Flower Pot": "https://minecraft.wiki/images/thumb/Flower_Pot_JE3.png/150px-Flower_Pot_JE3.png?e781b",
   "Flowering Azalea": "https://minecraft.wiki/images/thumb/Flowering_Azalea_JE2_BE2.png/150px-Flowering_Azalea_JE2_BE2.png?766e0",
@@ -719,7 +714,6 @@ export const ITEMS_TO_IMAGE_URLS: ItemsToImageUrl = {
   "Snow": "https://minecraft.wiki/images/thumb/Snow_%28layers_1%29_JE3_BE3.png/150px-Snow_%28layers_1%29_JE3_BE3.png?bf2e0",
   "Snow Block": "https://minecraft.wiki/images/thumb/Snow_Block_JE2_BE2.png/150px-Snow_Block_JE2_BE2.png?e7ace",
   "Soul Campfire": "https://minecraft.wiki/images/thumb/Soul_Campfire_JE1_BE1.gif/150px-Soul_Campfire_JE1_BE1.gif?bf4a7",
-  "Soul Fire": "https://minecraft.wiki/images/thumb/Soul_Fire_JE1.gif/150px-Soul_Fire_JE1.gif?b65b1",
   "Soul Lantern": "https://minecraft.wiki/images/Soul_Lantern_JE2_BE1.gif?0e5a7",
   "Soul Sand": "https://minecraft.wiki/images/thumb/Soul_Sand_JE2_BE2.png/150px-Soul_Sand_JE2_BE2.png?2334d",
   "Soul Soil": "https://minecraft.wiki/images/thumb/Soul_Soil_JE1_BE1.png/150px-Soul_Soil_JE1_BE1.png?b79a3",
@@ -936,7 +930,6 @@ export const ITEMS_TO_IMAGE_URLS: ItemsToImageUrl = {
   "Danger Pottery Sherd": "https://minecraft.wiki/images/Danger_Pottery_Sherd_JE1_BE1.png?05ade",
   "Dark Oak Boat": "https://minecraft.wiki/images/thumb/Dark_Oak_Boat_JE3_BE2.png/160px-Dark_Oak_Boat_JE3_BE2.png?fa945",
   "Dark Oak Boat with Chest": "https://minecraft.wiki/images/thumb/Dark_Oak_Boat_with_Chest_JE2_BE1.png/160px-Dark_Oak_Boat_with_Chest_JE2_BE1.png?e774d",
-  "Debug Stick": "https://minecraft.wiki/images/Debug_Stick.gif?c7249",
   "Diamond": "https://minecraft.wiki/images/Diamond_JE3_BE3.png?99d00",
   "Diamond Axe": "https://minecraft.wiki/images/Diamond_Axe_JE3_BE3.png?99125",
   "Diamond Boots": "https://minecraft.wiki/images/thumb/Diamond_Boots_JE2_BE2.png/160px-Diamond_Boots_JE2_BE2.png?e0b25",
@@ -1200,5 +1193,9 @@ export const ITEMS_TO_IMAGE_URLS: ItemsToImageUrl = {
   "Light Gray Terracotta": "https://minecraft.wiki/images/thumb/Light_Gray_Terracotta_JE1_BE1.png/150px-Light_Gray_Terracotta_JE1_BE1.png?c469c",
   "Light Gray Wool": "https://minecraft.wiki/images/thumb/Light_Gray_Wool_JE3_BE3.png/150px-Light_Gray_Wool_JE3_BE3.png?b75ee",
   "Light Weighted Pressure Plate": "https://minecraft.wiki/images/thumb/Light_Weighted_Pressure_Plate_JE3_BE2.png/150px-Light_Weighted_Pressure_Plate_JE3_BE2.png?f48d2",
-  "Lightning Rod": "https://minecraft.wiki/images/thumb/Lightning_Rod_%28U%29_JE3.png/150px-Lightning_Rod_%28U%29_JE3.png?6db91"
+  "Lightning Rod": "https://minecraft.wiki/images/thumb/Lightning_Rod_%28U%29_JE3.png/150px-Lightning_Rod_%28U%29_JE3.png?6db91",
+  "Fire Coral": "https://minecraft.wiki/images/thumb/Fire_Coral_JE2_BE1.png/150px-Fire_Coral_JE2_BE1.png?3e54c",
+  "Fire Coral Block": "https://minecraft.wiki/images/thumb/Fire_Coral_Block_JE2_BE1.png/150px-Fire_Coral_Block_JE2_BE1.png?81af7",
+  "Fire Coral Fan": "https://minecraft.wiki/images/thumb/Fire_Coral_Fan_JE1_BE2.png/150px-Fire_Coral_Fan_JE1_BE2.png?10234",
+  "Firefly Bush": "https://minecraft.wiki/images/thumb/Firefly_Bush_JE1.gif/150px-Firefly_Bush_JE1.gif?dfff2"
 }
