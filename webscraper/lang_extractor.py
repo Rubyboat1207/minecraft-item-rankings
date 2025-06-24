@@ -34,6 +34,8 @@ specific_exclusions = [
     '(?:item|block).minecraft.[a-z_]+_plant',
     '(?:item|block).minecraft.[a-z_]+_crop',
     'block.minecraft.set_spawn',
+    'block.minecraft.carrots$',
+    'block.minecraft.waxed_',
     'item.minecraft.potion',
     'item.minecraft.scute',
     'block.minecraft.nether_portal',
